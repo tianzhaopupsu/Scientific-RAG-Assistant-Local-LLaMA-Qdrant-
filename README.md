@@ -49,3 +49,34 @@ PDF Document
  LLaMA 3.2 (4-bit)
       ↓
  Grounded Answer
+```
+## 📂 Project Structure
+```
+RAG-Scientific-Assistant/
+│── app/
+│   ├── rag_pipeline.py
+│   ├── retriever.py
+│   ├── llm.py
+│   ├── prompt.py
+│   ├── settings.py
+│   └── embeddings.py
+│
+│── scripts/
+│   └── ingest_pdf.py
+│
+│── data/
+│   └── example.pdf
+│
+│── app_ui.py
+│── main.py
+│── requirements.txt
+│── .env.example
+│── README.md
+
+```
+
+⚙️ Installation
+1. Clone repository
+
+2. git clone <your_repo_url>
+cd RAG-Scientific-Assistant
