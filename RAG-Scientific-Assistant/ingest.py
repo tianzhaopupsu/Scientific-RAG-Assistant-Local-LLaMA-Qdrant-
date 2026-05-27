@@ -4,7 +4,7 @@ from app.ingestion.indexer import Indexer
 from app.qdrant_db import initialize_collection
 
 
-PDF_PATH = r"C:\Users\tz13\Downloads\FAQ_of_Quant_Finance.pdf"
+PDF_PATH = r"FAQ_of_Quant_Finance.pdf"
 
 
 def main():
