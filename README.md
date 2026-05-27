@@ -75,8 +75,25 @@ RAG-Scientific-Assistant/
 
 ```
 
+
+
 ⚙️ Installation
 1. Clone repository
-
-2. git clone <your_repo_url>
+```python
+git clone <your_repo_url>
 cd RAG-Scientific-Assistant
+```
+2. Create virtual environment
+```python
+python -m venv .venv
+```
+Activate:
+
+Windows
+```python
+.venv\Scripts\activate
+```
+Mac/Linux
+```python
+source .venv/bin/activate
+```
